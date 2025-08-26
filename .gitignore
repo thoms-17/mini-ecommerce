@@ -1,3 +1,44 @@
+# Node
 node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
 
+# Build
+dist/
+build/
+.cache/
+out/
+
+# Logs
+logs
+*.log
+*.log.*
+*.out
+*.pid
+*.gz
+
+# Env files
 .env
+.env.local
+.env.*.local
+backend/.env
+frontend/.env
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Coverage / Tests
+coverage/
+*.lcov
+.jest/
+.nyc_output/
+
+# Misc
+*.swp
+*.swo
+*.tmp
